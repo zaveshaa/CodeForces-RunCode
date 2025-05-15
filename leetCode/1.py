@@ -1,4 +1,4 @@
-# pass
+# PASS
 numbers = list(map(int, input().split()))
 target = int(input())
 
