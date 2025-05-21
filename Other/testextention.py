@@ -1,12 +1,10 @@
-a = 9
-n = 9
-
-def f(a: int) -> Any:
-    print(a)
-f(a)
-
-def count_up_to(n: int) -> None:
-    i = 1
-    while i <= n:
-        yield i
-        i += 1
+def example(x: Any) -> int | str:
+    if x > 0:
+        return 42
+    else:
+        return 'not found'
+a = [1, 2, 3]
+b = {'key': 42}
+c = {1, 2, 3}
+d = (1, 'two')
+e = example(10)
